@@ -1,4 +1,4 @@
-def main():
+def frases():
     print("A day of Glory!");
 
     f = open("quotes.txt");
@@ -7,5 +7,5 @@ def main():
 
     print(quotes);
 
-if __name__ == "__main__":
-    main();
+if __name__ == "__frases__":
+    frases();
